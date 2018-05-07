@@ -1,0 +1,151 @@
+/* top header background, dog icon, and HOW WHAT FACTS at top right */
+#dog_icon{
+  width: 25px;
+  position: absolute;
+  top: -2px;
+  z-index: 2;
+}
+
+#top_header{
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  color: white;
+  word-spacing: 30px;
+  font-size: 10px;
+}
+
+#top_color {
+  position: relative;
+  margin: 10px;
+  width: 525px;
+  height: 30px;
+  background-color: rgb(7, 164, 236);
+  z-index: 1;
+}
+
+#top_color > * {
+  position: absolute;
+}
+
+.left {
+  left: 20px;
+}
+
+.right {
+  right: 20px;
+}
+
+.top {
+  top: 10px;
+}
+
+.bottom {
+  bottom: 0;
+}
+
+#dog_park{
+  position: absolute;
+  left: -20px;
+  top: 20px;
+  width: 525px;
+  height: 250px;
+}
+
+
+/* Adds in blurred background picture "a site about some dogs", picture of dog, and WHAT ARE DOGS */
+
+#dog_main {
+    position:relative;
+    width: 150px;
+    left: 225px;
+    top: 50px;
+    z-index: 3;
+    border-radius: 75%;
+    border: 3px solid rgb(7, 164, 236);
+    overflow: hidden;
+}
+#dog_1, #dog_2, #dog_3 {
+    position:relative;
+    width:40px;
+    height:20px;
+    top:50%;
+    margin-top:-10px; /* negative half of height */
+}
+#dog_1 {
+    left: 75px; /* negative [width plus any desired padding] */
+    top: 175px; 
+}
+#dog_2 {
+    top: 165px;
+    left: 250px; /* negative [width plus any desired padding] */
+}
+#dog_3 {
+    left:420px; /* negative [width plus any desired padding] */
+    top: 150px;
+}
+
+#dog_1_pic, #dog_2_pic, #dog_3_pic{
+  width: 100px;
+  position: absolute;
+  z-index: 3;
+  border-radius: 75%;
+  border: 3px solid rgb(7, 164, 236);
+}
+
+#how {
+  position: absolute;
+  z-index: 4;
+  left: 100px;
+  top: 100px;
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#how {
+  font-family: fantasy;
+  font-size: 13px;
+  font-style: italic;
+  line-height: 1.5em;
+  text-align: center;
+  margin: auto;
+  border: 6px groove rgb(100, 100, 0);
+  position: absolute;
+  top: 20px;
+  left: 10px;
+  z-index: 1;
+
+}
+
+.description{
+  text-align: center;
+  font-size: 13px;
+  margin: 15px 0px 10px 6px; 
+  border: 1px solid rgb(145, 0, 0);
+  position: relative;
+  z-index: 2;
+}
